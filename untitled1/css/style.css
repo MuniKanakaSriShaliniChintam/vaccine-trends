@@ -1,0 +1,51 @@
+.img{
+  background-image: url("../img/blurred.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:darkgreen;
+}
+*{
+  margin:0;
+  padding:0;
+  font-family:verdana;
+}
+#abc{
+  width:100%;
+  height:100vh;
+  background-size: cover;
+  background-image: url("../img/imageedit_0_7262716680.jpg");
+}
+nav{
+  width: 100%;
+  height: 50px;
+  background-color: #0005;
+  line-height: 50px;
+}
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+}
+nav ul li:hover{
+  background-color:whitesmoke;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+}
+.u{
+  text-align: center;
+
+}
+
